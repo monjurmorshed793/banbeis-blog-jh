@@ -100,7 +100,6 @@
   },
   "defaultProject": "banbeis-blog",
   "cli": {
-    "analytics": "4fe51552-256a-4823-8c23-2466eed8c1b2",
     "cache": {
       "enabled": true,
       "path": "./target/angular/",
