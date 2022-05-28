@@ -92,9 +92,11 @@
     "ngx-infinite-scroll": "13.0.1",
     "ngx-webstorage": "9.0.0",
     "rxjs": "7.5.5",
-    "sockjs-client": "1.5.0",
+    "sockjs-client": "^1.6.1",
     "tslib": "2.3.1",
+    "webpack-sources": "^3.2.3",
     "webstomp-client": "1.2.6",
+    "workbox-webpack-plugin": "^6.5.3",
     "zone.js": "0.11.4"
   },
   "devDependencies": {
@@ -110,7 +112,7 @@
     "@types/sockjs-client": "1.5.0",
     "@typescript-eslint/eslint-plugin": "5.18.0",
     "@typescript-eslint/parser": "5.18.0",
-    "browser-sync": "2.27.9",
+    "browser-sync": "^2.27.10",
     "browser-sync-webpack-plugin": "2.3.0",
     "concurrently": "7.1.0",
     "copy-webpack-plugin": "10.2.4",
