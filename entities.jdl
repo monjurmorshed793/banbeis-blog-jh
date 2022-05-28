@@ -1,0 +1,20 @@
+
+
+@embedded
+entity SubNavigation{
+	title String required,
+    icon String required,
+    route String,
+    roles String,
+}
+
+entity Navigation{
+	title String required,
+    icon String required,
+    route String,
+    roles String,
+}
+
+relationship OneToMany{
+	Navigation{submenus} to SubNavigation
+}

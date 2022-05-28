@@ -1,0 +1,41 @@
+{
+  "applications": "*",
+  "changelogDate": "20220527182434",
+  "dto": "no",
+  "embedded": true,
+  "entityTableName": "sub_navigation",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "icon",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "route",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "roles",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "SubNavigation",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "navigation",
+      "otherEntityRelationshipName": "submenus",
+      "relationshipName": "navigation",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

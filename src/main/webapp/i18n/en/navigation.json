@@ -1,0 +1,28 @@
+{
+  "banbeisBlogApp": {
+    "navigation": {
+      "home": {
+        "title": "Navigations",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Navigation",
+        "createOrEditLabel": "Create or edit a Navigation",
+        "notFound": "No Navigations found"
+      },
+      "created": "A new Navigation is created with identifier {{ param }}",
+      "updated": "A Navigation is updated with identifier {{ param }}",
+      "deleted": "A Navigation is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Navigation {{ id }}?"
+      },
+      "detail": {
+        "title": "Navigation"
+      },
+      "id": "ID",
+      "title": "Title",
+      "icon": "Icon",
+      "route": "Route",
+      "roles": "Roles",
+      "submenus": "Submenus"
+    }
+  }
+}
