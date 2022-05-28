@@ -22,7 +22,7 @@
     "entities": ["SubNavigation", "Navigation"],
     "entitySuffix": "",
     "jhiPrefix": "jhi",
-    "jhipsterVersion": "7.8.1",
+    "jhipsterVersion": "7.8.0",
     "jwtSecretKey": "MTY3MTA1Mjc0NjU0MTA2ZDVhNGE3N2VhYWI2YTgwYjk4ZjQ5MmI0NmU0NGFjNmVlODc3NzQ1MThjYjUxNGMxOTgwNThmNWJmNzZkM2YyOTBhZDRkMTIyNjM5MDU4MDY5MzBmODFiOThjZDZmMzZkNjgwMGVkOWU3NzYzMTVkOTY=",
     "languages": ["en", "bn"],
     "lastLiquibaseTimestamp": 1653675875000,
